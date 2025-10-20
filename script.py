@@ -11,7 +11,7 @@ from email.message import EmailMessage
 
 # Datos
 me = "zap1261@amerike.edu.mx"
-you = "iflores@amerike.edu.mx"
+you = input("INGRESA CORREO DEL DESTINATARIO: ")
 """
 Desde 2022 gmail bloquea la autentificación con la contraseña real
 por lo que usamos las contraseñas de aplicación de gmail, estos nos permite enviar los mails de manera segura
