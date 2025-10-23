@@ -11,23 +11,24 @@ from email.message import EmailMessage
 
 # Datos
 me = "zap1261@amerike.edu.mx"
-you = input("INGRESA CORREO DEL DESTINATARIO: ")
+you = "zap1261@amerike.edu.mx"
+
 """
 Desde 2022 gmail bloquea la autentificación con la contraseña real
 por lo que usamos las contraseñas de aplicación de gmail, estos nos permite enviar los mails de manera segura
 """
-app_password = "axjb nxbm ppms quuw" 
+app_password = "a" 
 
 # Pedimos datos del usuario que va enviar el correo para imprimirlos en el mensaje enviado
-name = input("Nombre: ")
-schoolId = input("Ingresa tu zap: ")
-fromEmail = input("Ingresa tu correo electrónico: ")
+# name = input("Nombre: ")
+# schoolId = input("Ingresa tu zap: ")
+# fromEmail = input("Ingresa tu correo electrónico: ")
 
 # Creamos el objeto "EmailMessage" que sera el contenedor del correo
 message = EmailMessage()
 
 # .set_content es para definir el cuerpo del correo
-message.set_content(f"Este correo es una automatización para mandar emails que incluyan los siguientes datos del usuario:\n\n Nombre: {name}\n Matrícula (zap): {schoolId}\n Correo Electrónico: {fromEmail}")
+message.set_content(f"soy una cachondita y me gusta el nepe ñam ñam")
 message["Subject"] = "Python SMTP"
 message["From"] = me
 message["To"] = you
