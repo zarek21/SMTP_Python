@@ -16,7 +16,7 @@ you = "iflores@amerike.edu.mx"
 Desde 2022 gmail bloquea la autentificación con la contraseña real
 por lo que usamos las contraseñas de aplicación de gmail, estos nos permite enviar los mails de manera segura
 """
-app_password = "axjb nxbm ppms quuw"  # YOUR APP PASSWORD FROM THE EMAIL SERVICE YOU WANNA USE ( THIS IS A FAKE ONE BUT USUALLY THEY HAVE 16 DIGITS)
+app_password = ""  # YOUR APP PASSWORD FROM THE EMAIL SERVICE YOU WANNA USE ( THIS IS A FAKE ONE BUT USUALLY THEY HAVE 16 DIGITS)
 
 # Pedimos datos del usuario que va enviar el correo para imprimirlos en el mensaje enviado
 name = input("Nombre: ")
